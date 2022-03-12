@@ -76,7 +76,7 @@ public class AutomationProject {
     Thread.sleep(500);
     driver.findElement(By.id("listaccountNav-signIn")).click();
     driver.findElement(By.id("username")).sendKeys("tiffq6890@yahoo.com");
-    driver.findElement(By.id("password")).sendKeys("Bubblegum6890");
+    driver.findElement(By.id("password")).sendKeys("Bubblegum1234");
     driver.findElement(By.id("login")).click();
     Thread.sleep(3500);
     driver.close();
