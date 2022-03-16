@@ -80,7 +80,7 @@ public class AutomationProject {
     driver.findElement(By.id("login")).click();
     Thread.sleep(3500);
     driver.close();
-    
+
     
     }
     
